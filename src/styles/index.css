@@ -27,6 +27,8 @@ body {
   padding: 0 20px;
 }
 
+
+
 /* Buttons */
 
 .btn{
@@ -55,5 +57,18 @@ body {
     &:hover{
         background-color: var(--primary);
         color: #fff;
+    }
+}
+
+/* Anchor Tags */
+
+a{
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 650;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        color: var(--accent);
     }
 }
