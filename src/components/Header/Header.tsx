@@ -3,7 +3,7 @@ import styles from "./Header.module.css"
 const Header = () => {
   return (
     <header>
-        <div className="container">
+        <div className={styles.container}>
             <nav>
                 <div className={styles.logo}>Keaton Developer</div>
                 <div className={styles.menu}>
