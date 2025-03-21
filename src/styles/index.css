@@ -67,6 +67,7 @@ a{
     text-decoration: none;
     font-weight: 650;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 
     &:hover{
         color: var(--accent);
