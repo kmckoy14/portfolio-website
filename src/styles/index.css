@@ -20,3 +20,40 @@ body {
   background-color: #f9f9f9;
   line-height: 1.7;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+/* Buttons */
+
+.btn{
+    cursor: pointer;
+    border: none;
+    background-color: var(--primary);
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 650;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        opacity: 0.8;
+        transform: translateY(-3px);
+    }
+}
+
+.btn-outline{
+    background-color: transparent;
+    border: 2.5px solid var(--primary);
+    color: var(--primary);
+
+    &:hover{
+        background-color: var(--primary);
+        color: #fff;
+    }
+}

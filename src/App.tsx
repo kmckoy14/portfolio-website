@@ -6,7 +6,11 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <div className="container">
+      <button className='btn'>View My Work</button> <br /><br />
+        
+      <button className='btn btn-outline'>hello world</button>
+      </div>
       
       
     </>
