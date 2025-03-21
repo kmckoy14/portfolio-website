@@ -1,3 +1,4 @@
+import Header from './components/Header/Header.tsx';
 
 
 function App() {
@@ -5,8 +6,7 @@ function App() {
 
   return (
     <>
-      
-      Testing
+      <Header/>
       
       
     </>
