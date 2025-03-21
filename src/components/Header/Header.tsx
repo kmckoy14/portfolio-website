@@ -7,10 +7,10 @@ const Header = () => {
             <nav>
                 <a className={styles.logo}>Keaton Developer</a>
                 <div className={styles.menu}>
-                    <a className={styles.nav_items} href="">About</a>
-                    <a className={styles.nav_items} href="">Projects</a>
-                    <a className={styles.nav_items} href="">Contact</a>
-                    <a className={styles.nav_items} href="">GitHub</a>
+                    <a className={styles.menu_items} href="">About</a>
+                    <a className={styles.menu_items} href="">Projects</a>
+                    <a className={styles.menu_items} href="">Contact</a>
+                    <a className={styles.menu_items} href="">GitHub</a>
                 </div>
             </nav>
         </div>

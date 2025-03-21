@@ -23,4 +23,6 @@ header nav{
 
 .menu{}
 
-.nav_items{}
+.menu_items{
+    margin-right: 10px;
+}
