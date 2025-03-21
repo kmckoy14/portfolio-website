@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <a href="">Testing Link Styles</a>
+        
       
       </div>
       
